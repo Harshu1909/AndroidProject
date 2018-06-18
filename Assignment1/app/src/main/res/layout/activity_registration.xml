@@ -104,18 +104,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_marginTop="25dp"
         android:orientation="horizontal">
 
         <Button
             android:layout_width="123dp"
             android:layout_height="wrap_content"
             android:onClick="register"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/White"
             android:text="Registration"/>
 
         <Button
             android:layout_width="123dp"
             android:layout_height="wrap_content"
             android:onClick="clear"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/White"
             android:text="CLear" />
 
     </LinearLayout>

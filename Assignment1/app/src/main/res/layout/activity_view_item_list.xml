@@ -1,9 +1,346 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ViewItemList">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/Item1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginRight="10dp"
+        card_view:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ItemImage1"
+            android:src="@drawable/itemimage1"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="120dp"
+            android:scaleType="fitCenter"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ItemText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Bring Me Back"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/ItemSubText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:text="A Novel Hardcover – Jun 19 2018"
+                android:layout_gravity="left"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/ItemSub2Text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:text="by B.A Paris(Author)"
+                android:layout_gravity="left"
+                android:textSize="18dp"/>
+        </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Item2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginRight="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ItemImage2"
+                    android:src="@drawable/itemimage2"
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:layout_height="120dp"
+                    android:scaleType="fitCenter"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ItemText2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Ayesha At Last:A Novel"
+                        android:textStyle="bold"
+                        android:layout_gravity="left"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ItemSubText2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+
+                        android:text="Paperback – Deckle Edge, Jun 12 2018"
+                        android:layout_gravity="left"
+                        android:textSize="18dp"/>
+
+                    <TextView
+                        android:id="@+id/ItemSub2Text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+
+                        android:text="by Uzma Jalaluddin"
+                        android:layout_gravity="left"
+                        android:textSize="18dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Item3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginRight="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ItemImage3"
+                    android:src="@drawable/itemimage3"
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:layout_height="120dp"
+                    android:scaleType="fitCenter"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ItemText3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="The Perfect Mother"
+                        android:textStyle="bold"
+                        android:layout_gravity="left"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ItemSubText3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Hardcover – May 1 2018"
+                        android:layout_gravity="left"
+                        android:textSize="18dp"/>
+
+                    <TextView
+                        android:id="@+id/ItemSub2Text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="by Aimee Molloy"
+                        android:layout_gravity="left"
+                        android:textSize="18dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Item4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginRight="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ItemImage4"
+                    android:src="@drawable/itemimage4"
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:layout_height="120dp"
+                    android:scaleType="fitCenter"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ItemText4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Amulet #8: Supernova"
+                        android:textStyle="bold"
+                        android:layout_gravity="left"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ItemSubText4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Paperback – Sep 25 2018"
+                        android:layout_gravity="left"
+                        android:textSize="18dp"/>
+
+                    <TextView
+                        android:id="@+id/ItemSub2Text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="by Kazu Kibuishi"
+                        android:layout_gravity="left"
+                        android:textSize="18dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>=
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Item5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginRight="10dp"
+            card_view:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ItemImage5"
+                    android:src="@drawable/itemimage5"
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:layout_height="120dp"
+                    android:scaleType="fitCenter"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ItemText5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Positively Izzy"
+                        android:textStyle="bold"
+                        android:layout_gravity="left"
+                        android:textSize="20dp"/>
+
+                    <TextView
+                        android:id="@+id/ItemSubText5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Paperback – May 1 2018"
+                        android:layout_gravity="left"
+                        android:textSize="18dp"/>
+
+                    <TextView
+                        android:id="@+id/ItemSub2Text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="by Terri Libenson"
+                        android:layout_gravity="left"
+                        android:textSize="18dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>=
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
