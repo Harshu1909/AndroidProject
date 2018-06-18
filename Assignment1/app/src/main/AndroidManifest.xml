@@ -20,6 +20,9 @@
         <activity android:name=".ViewItemList" />
         <activity android:name=".HomeMenu" />
         <activity android:name=".ViewItemDetails"></activity>
+        <activity android:name=".ViewAccount"></activity>
+        <activity android:name=".BuyItems"></activity>
+        <activity android:name=".UpdateAccount"></activity>
     </application>
 
 </manifest>

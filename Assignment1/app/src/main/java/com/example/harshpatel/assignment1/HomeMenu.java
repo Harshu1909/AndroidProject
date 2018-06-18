@@ -18,4 +18,16 @@ public class HomeMenu extends AppCompatActivity {
         Intent booklist = new Intent(HomeMenu.this,ViewItemList.class);
         startActivity(booklist);
     }
+
+    public void viewaccount(View view) {
+
+        Intent viewaccount =  new Intent(HomeMenu.this,ViewAccount.class);
+        startActivity(viewaccount);
+    }
+
+    public void viewhistory(View view) {
+
+        Intent viewhistory = new Intent(HomeMenu.this,BuyItems.class);
+        startActivity(viewhistory);
+    }
 }
