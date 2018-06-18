@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".registration" />
         <activity android:name=".ViewItemList" />
-        <activity android:name=".HomeMenu"></activity>
+        <activity android:name=".HomeMenu" />
+        <activity android:name=".ViewItemDetails"></activity>
     </application>
 
 </manifest>
