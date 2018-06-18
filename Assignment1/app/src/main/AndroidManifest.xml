@@ -19,10 +19,12 @@
         <activity android:name=".registration" />
         <activity android:name=".ViewItemList" />
         <activity android:name=".HomeMenu" />
-        <activity android:name=".ViewItemDetails"></activity>
-        <activity android:name=".ViewAccount"></activity>
-        <activity android:name=".BuyItems"></activity>
-        <activity android:name=".UpdateAccount"></activity>
+        <activity android:name=".ViewItemDetails" />
+        <activity android:name=".ViewAccount" />
+        <activity android:name=".BuyItems" />
+        <activity android:name=".UpdateAccount" />
+        <activity android:name=".CheckoutItem"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

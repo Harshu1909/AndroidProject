@@ -16,6 +16,7 @@
             android:layout_marginRight="5dp"
             android:background="@color/colorPrimaryDark"
             android:textColor="@color/White"
+            android:onClick="checkoutItem"
             android:text="Buy now"/>
         <Button
             android:layout_width="160dp"
@@ -23,6 +24,7 @@
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:textColor="@color/White"
+            android:onClick="cancel"
             android:text="Cancel"/>
     </LinearLayout>
 <ScrollView
