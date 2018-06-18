@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (UsernameString.equals("Admin") && PasswordString.equals("Admin")){
 
-                    Intent viewitemlist = new Intent(MainActivity.this,ViewItemList.class);
+                    Intent viewitemlist = new Intent(MainActivity.this,HomeMenu.class);
                     startActivity(viewitemlist);
                 }
                 else{
