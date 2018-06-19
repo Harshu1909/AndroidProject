@@ -19,13 +19,12 @@ public class UpdateAccount extends AppCompatActivity {
         lastName = ((EditText)findViewById(R.id.Lname)).getText().toString();
         username = ((EditText)findViewById(R.id.Username)).getText().toString();
         gender = ((RadioGroup)findViewById(R.id.radioButtonGroup)).toString();
-        oldPW = ((EditText)findViewById(R.id.oldPassword)).toString();
-        newPW = ((EditText)findViewById(R.id.newPassword)).toString();
-        CPW = ((EditText)findViewById(R.id.Cpassword)).toString();
+        oldPW = ((EditText)findViewById(R.id.oldPassword)).getText().toString();
+        newPW = ((EditText)findViewById(R.id.newPassword)).getText().toString();
+        CPW = ((EditText)findViewById(R.id.Cpassword)).getText().toString();
     }
     public void view(View view) {
-
-        if(newPW != CPW){
+        if(!newPW.equals(CPW)){
             Toast.makeText(this, "Check your new password and confirmed password.", Toast.LENGTH_SHORT).show();
         }
         else{
