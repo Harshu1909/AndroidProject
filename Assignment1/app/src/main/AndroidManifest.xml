@@ -24,7 +24,7 @@
         <activity android:name=".BuyItems" />
         <activity android:name=".UpdateAccount" />
         <activity android:name=".CheckoutItem"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            />
     </application>
 
 </manifest>
