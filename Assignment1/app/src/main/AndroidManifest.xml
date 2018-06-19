@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Splash"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".registration" />
         <activity android:name=".ViewItemList" />
         <activity android:name=".HomeMenu" />
@@ -23,8 +25,9 @@
         <activity android:name=".ViewAccount" />
         <activity android:name=".BuyItems" />
         <activity android:name=".UpdateAccount" />
-        <activity android:name=".CheckoutItem"
-            />
+        <activity android:name=".CheckoutItem" />
+        <activity android:name=".CancelOrderList" />
+
     </application>
 
 </manifest>

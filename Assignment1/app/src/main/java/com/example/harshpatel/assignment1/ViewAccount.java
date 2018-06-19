@@ -25,10 +25,10 @@ public class ViewAccount extends AppCompatActivity {
     }
 
 
-    public void delete(View view) {
+    public void logout(View view) {
 
-        Toast.makeText(this, "Successfully delete Account.", Toast.LENGTH_SHORT).show();
-        Intent viewitemlist = new Intent(ViewAccount.this,ViewItemList.class);
+        Toast.makeText(this, "You are logout.", Toast.LENGTH_SHORT).show();
+        Intent viewitemlist = new Intent(ViewAccount.this,MainActivity.class);
         startActivity(viewitemlist);
     }
 }
