@@ -26,8 +26,13 @@ public class ViewItemList extends AppCompatActivity {
     };
 
     String[] listviewShortDescription = new String[]{
-            "A Novel Hardcover – Jun 19 2018", "Paperback – Deckle Edge, Jun 12 2018", "Hardcover – May 1 2018", "by Kazu Kibuishi",
+            "A Novel Hardcover – Jun 19 2018", "Paperback – Deckle Edge, Jun 12 2018", "Hardcover – May 1 2018", "Paperback – Sep 25 2018",
             "Paperback – May 1 2018"
+    };
+
+    String[] listview_sub_description = new String[]{
+            "by B.A Paris(Author)", "by Uzma Jalaluddin", "by Aimee Molloy", "by Kazu Kibuishi",
+            "by Terri Libenson"
     };
 
     @Override
@@ -42,11 +47,12 @@ public class ViewItemList extends AppCompatActivity {
             hm.put("listview_title", listviewTitle[i]);
             hm.put("listview_discription", listviewShortDescription[i]);
             hm.put("listview_image", Integer.toString(listviewImage[i]));
+            hm.put("listview_sub_description", listview_sub_description[i]);
             aList.add(hm);
         }
 
-        String[] from = {"listview_image", "listview_title", "listview_discription"};
-        int[] to = {R.id.ItemImage1, R.id.ItemText1, R.id.ItemSubText1};
+        String[] from = {"listview_image", "listview_title", "listview_discription","listview_sub_description"};
+        int[] to = {R.id.ItemImage1, R.id.ItemText1, R.id.ItemSubText1,R.id.ItemSub2Text1};
 
         SimpleAdapter simpleAdapter = new SimpleAdapter(getBaseContext(), aList, R.layout.list, from, to);
         ListView androidListView = (ListView) findViewById(R.id.list_view);
